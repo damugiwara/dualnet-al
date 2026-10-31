@@ -1,0 +1,171 @@
+meta-episode 1/3 on cifar100-lt100
+  cifar100-lt100 dualnet  seed=10000 r=0 n=  500 acc=0.116 tailF1=0.005 imb=27.0
+    query-net mse=0.0707 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10000 r=1 n=  750 acc=0.151 tailF1=0.021 imb=36.0
+    query-net mse=0.0691 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10000 r=2 n= 1000 acc=0.171 tailF1=0.020 imb=42.0
+    query-net mse=0.0758 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10000 r=3 n= 1250 acc=0.187 tailF1=0.025 imb=49.0
+    query-net mse=0.0644 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10000 r=4 n= 1500 acc=0.208 tailF1=0.035 imb=63.0
+    query-net mse=0.0751 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10000 r=5 n= 1750 acc=0.213 tailF1=0.036 imb=72.0
+    query-net mse=0.0709 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10000 r=6 n= 2000 acc=0.237 tailF1=0.053 imb=76.0
+    query-net mse=0.0638 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10000 r=7 n= 2250 acc=0.239 tailF1=0.045 imb=86.0
+    query-net mse=0.0599 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10000 r=8 n= 2500 acc=0.260 tailF1=0.055 imb=96.0
+meta-episode 2/3 on cifar100-lt100
+  cifar100-lt100 dualnet  seed=10001 r=0 n=  500 acc=0.111 tailF1=0.005 imb=24.0
+    query-net mse=0.0627 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10001 r=1 n=  750 acc=0.148 tailF1=0.018 imb=32.0
+    query-net mse=0.0662 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10001 r=2 n= 1000 acc=0.164 tailF1=0.016 imb=39.0
+    query-net mse=0.0671 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10001 r=3 n= 1250 acc=0.181 tailF1=0.018 imb=48.0
+    query-net mse=0.0648 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10001 r=4 n= 1500 acc=0.196 tailF1=0.035 imb=60.0
+    query-net mse=0.0654 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10001 r=5 n= 1750 acc=0.212 tailF1=0.038 imb=78.0
+    query-net mse=0.0664 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10001 r=6 n= 2000 acc=0.223 tailF1=0.039 imb=91.0
+    query-net mse=0.0650 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10001 r=7 n= 2250 acc=0.241 tailF1=0.043 imb=93.0
+    query-net mse=0.0651 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10001 r=8 n= 2500 acc=0.267 tailF1=0.054 imb=103.0
+meta-episode 3/3 on cifar100-lt100
+  cifar100-lt100 dualnet  seed=10002 r=0 n=  500 acc=0.114 tailF1=0.018 imb=31.0
+    query-net mse=0.0674 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10002 r=1 n=  750 acc=0.140 tailF1=0.017 imb=40.0
+    query-net mse=0.0631 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10002 r=2 n= 1000 acc=0.158 tailF1=0.017 imb=50.0
+    query-net mse=0.0611 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10002 r=3 n= 1250 acc=0.179 tailF1=0.018 imb=57.0
+    query-net mse=0.0681 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10002 r=4 n= 1500 acc=0.191 tailF1=0.028 imb=68.0
+    query-net mse=0.0607 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10002 r=5 n= 1750 acc=0.203 tailF1=0.025 imb=77.0
+    query-net mse=0.0635 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10002 r=6 n= 2000 acc=0.213 tailF1=0.025 imb=86.0
+    query-net mse=0.0616 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10002 r=7 n= 2250 acc=0.230 tailF1=0.031 imb=91.0
+    query-net mse=0.0673 (constant-guess baseline 0.083)
+  cifar100-lt100 dualnet  seed=10002 r=8 n= 2500 acc=0.244 tailF1=0.028 imb=103.0
+target pool cifar10-lt100: 12406 images, 10 classes, device=cuda
+  cifar10-lt100 random   seed=0 r=0 n=  500 acc=0.310 tailF1=0.012 imb=214.0
+  cifar10-lt100 random   seed=0 r=1 n=  750 acc=0.357 tailF1=0.077 imb=322.0
+  cifar10-lt100 random   seed=0 r=2 n= 1000 acc=0.377 tailF1=0.073 imb=431.0
+  cifar10-lt100 random   seed=0 r=3 n= 1250 acc=0.415 tailF1=0.132 imb=262.0
+  cifar10-lt100 random   seed=0 r=4 n= 1500 acc=0.442 tailF1=0.164 imb=209.3
+  cifar10-lt100 random   seed=0 r=5 n= 1750 acc=0.452 tailF1=0.173 imb=240.0
+  cifar10-lt100 random   seed=0 r=6 n= 2000 acc=0.461 tailF1=0.170 imb=164.8
+  cifar10-lt100 random   seed=0 r=7 n= 2250 acc=0.470 tailF1=0.182 imb=184.0
+  cifar10-lt100 random   seed=0 r=8 n= 2500 acc=0.488 tailF1=0.208 imb=171.2
+  cifar10-lt100 random   seed=1 r=0 n=  500 acc=0.331 tailF1=0.062 imb=97.0
+  cifar10-lt100 random   seed=1 r=1 n=  750 acc=0.359 tailF1=0.083 imb=143.0
+  cifar10-lt100 random   seed=1 r=2 n= 1000 acc=0.387 tailF1=0.111 imb=199.5
+  cifar10-lt100 random   seed=1 r=3 n= 1250 acc=0.416 tailF1=0.144 imb=126.2
+  cifar10-lt100 random   seed=1 r=4 n= 1500 acc=0.434 tailF1=0.154 imb=150.2
+  cifar10-lt100 random   seed=1 r=5 n= 1750 acc=0.457 tailF1=0.207 imb=175.0
+  cifar10-lt100 random   seed=1 r=6 n= 2000 acc=0.468 tailF1=0.196 imb=202.5
+  cifar10-lt100 random   seed=1 r=7 n= 2250 acc=0.490 tailF1=0.228 imb=227.2
+  cifar10-lt100 random   seed=1 r=8 n= 2500 acc=0.494 tailF1=0.249 imb=124.2
+  cifar10-lt100 random   seed=2 r=0 n=  500 acc=0.371 tailF1=0.185 imb=50.0
+  cifar10-lt100 random   seed=2 r=1 n=  750 acc=0.391 tailF1=0.167 imb=77.2
+  cifar10-lt100 random   seed=2 r=2 n= 1000 acc=0.410 tailF1=0.177 imb=81.2
+  cifar10-lt100 random   seed=2 r=3 n= 1250 acc=0.423 tailF1=0.191 imb=82.5
+  cifar10-lt100 random   seed=2 r=4 n= 1500 acc=0.442 tailF1=0.225 imb=99.8
+  cifar10-lt100 random   seed=2 r=5 n= 1750 acc=0.450 tailF1=0.207 imb=117.2
+  cifar10-lt100 random   seed=2 r=6 n= 2000 acc=0.466 tailF1=0.208 imb=134.2
+  cifar10-lt100 random   seed=2 r=7 n= 2250 acc=0.460 tailF1=0.199 imb=129.6
+  cifar10-lt100 random   seed=2 r=8 n= 2500 acc=0.479 tailF1=0.249 imb=143.7
+  cifar10-lt100 entropy  seed=0 r=0 n=  500 acc=0.310 tailF1=0.012 imb=214.0
+  cifar10-lt100 entropy  seed=0 r=1 n=  750 acc=0.404 tailF1=0.155 imb=126.0
+  cifar10-lt100 entropy  seed=0 r=2 n= 1000 acc=0.450 tailF1=0.159 imb=148.5
+  cifar10-lt100 entropy  seed=0 r=3 n= 1250 acc=0.463 tailF1=0.165 imb=115.0
+  cifar10-lt100 entropy  seed=0 r=4 n= 1500 acc=0.485 tailF1=0.186 imb=98.0
+  cifar10-lt100 entropy  seed=0 r=5 n= 1750 acc=0.514 tailF1=0.195 imb=107.8
+  cifar10-lt100 entropy  seed=0 r=6 n= 2000 acc=0.538 tailF1=0.229 imb=84.2
+  cifar10-lt100 entropy  seed=0 r=7 n= 2250 acc=0.547 tailF1=0.246 imb=78.7
+  cifar10-lt100 entropy  seed=0 r=8 n= 2500 acc=0.567 tailF1=0.298 imb=60.3
+  cifar10-lt100 entropy  seed=1 r=0 n=  500 acc=0.331 tailF1=0.062 imb=97.0
+  cifar10-lt100 entropy  seed=1 r=1 n=  750 acc=0.382 tailF1=0.130 imb=83.0
+  cifar10-lt100 entropy  seed=1 r=2 n= 1000 acc=0.437 tailF1=0.159 imb=103.7
+  cifar10-lt100 entropy  seed=1 r=3 n= 1250 acc=0.471 tailF1=0.192 imb=122.3
+  cifar10-lt100 entropy  seed=1 r=4 n= 1500 acc=0.505 tailF1=0.217 imb=137.0
+  cifar10-lt100 entropy  seed=1 r=5 n= 1750 acc=0.521 tailF1=0.229 imb=91.2
+  cifar10-lt100 entropy  seed=1 r=6 n= 2000 acc=0.542 tailF1=0.275 imb=83.7
+  cifar10-lt100 entropy  seed=1 r=7 n= 2250 acc=0.561 tailF1=0.310 imb=70.6
+  cifar10-lt100 entropy  seed=1 r=8 n= 2500 acc=0.568 tailF1=0.334 imb=61.7
+  cifar10-lt100 entropy  seed=2 r=0 n=  500 acc=0.371 tailF1=0.185 imb=50.0
+  cifar10-lt100 entropy  seed=2 r=1 n=  750 acc=0.412 tailF1=0.205 imb=34.9
+  cifar10-lt100 entropy  seed=2 r=2 n= 1000 acc=0.450 tailF1=0.232 imb=34.8
+  cifar10-lt100 entropy  seed=2 r=3 n= 1250 acc=0.474 tailF1=0.228 imb=33.0
+  cifar10-lt100 entropy  seed=2 r=4 n= 1500 acc=0.504 tailF1=0.266 imb=35.0
+  cifar10-lt100 entropy  seed=2 r=5 n= 1750 acc=0.513 tailF1=0.288 imb=39.1
+  cifar10-lt100 entropy  seed=2 r=6 n= 2000 acc=0.546 tailF1=0.365 imb=37.8
+  cifar10-lt100 entropy  seed=2 r=7 n= 2250 acc=0.558 tailF1=0.369 imb=31.3
+  cifar10-lt100 entropy  seed=2 r=8 n= 2500 acc=0.578 tailF1=0.386 imb=32.1
+  cifar10-lt100 coreset  seed=0 r=0 n=  500 acc=0.310 tailF1=0.012 imb=214.0
+  cifar10-lt100 coreset  seed=0 r=1 n=  750 acc=0.382 tailF1=0.054 imb=268.0
+  cifar10-lt100 coreset  seed=0 r=2 n= 1000 acc=0.412 tailF1=0.077 imb=164.5
+  cifar10-lt100 coreset  seed=0 r=3 n= 1250 acc=0.434 tailF1=0.123 imb=136.3
+  cifar10-lt100 coreset  seed=0 r=4 n= 1500 acc=0.482 tailF1=0.194 imb=120.2
+  cifar10-lt100 coreset  seed=0 r=5 n= 1750 acc=0.499 tailF1=0.211 imb=113.0
+  cifar10-lt100 coreset  seed=0 r=6 n= 2000 acc=0.520 tailF1=0.245 imb=108.0
+  cifar10-lt100 coreset  seed=0 r=7 n= 2250 acc=0.520 tailF1=0.260 imb=78.4
+  cifar10-lt100 coreset  seed=0 r=8 n= 2500 acc=0.550 tailF1=0.307 imb=77.8
+  cifar10-lt100 coreset  seed=1 r=0 n=  500 acc=0.331 tailF1=0.062 imb=97.0
+  cifar10-lt100 coreset  seed=1 r=1 n=  750 acc=0.375 tailF1=0.110 imb=88.3
+  cifar10-lt100 coreset  seed=1 r=2 n= 1000 acc=0.408 tailF1=0.181 imb=46.4
+  cifar10-lt100 coreset  seed=1 r=3 n= 1250 acc=0.454 tailF1=0.226 imb=43.6
+  cifar10-lt100 coreset  seed=1 r=4 n= 1500 acc=0.479 tailF1=0.278 imb=40.0
+  cifar10-lt100 coreset  seed=1 r=5 n= 1750 acc=0.498 tailF1=0.300 imb=45.8
+  cifar10-lt100 coreset  seed=1 r=6 n= 2000 acc=0.515 tailF1=0.310 imb=43.4
+  cifar10-lt100 coreset  seed=1 r=7 n= 2250 acc=0.545 tailF1=0.367 imb=40.7
+  cifar10-lt100 coreset  seed=1 r=8 n= 2500 acc=0.544 tailF1=0.355 imb=36.1
+  cifar10-lt100 coreset  seed=2 r=0 n=  500 acc=0.371 tailF1=0.185 imb=50.0
+  cifar10-lt100 coreset  seed=2 r=1 n=  750 acc=0.398 tailF1=0.144 imb=51.4
+  cifar10-lt100 coreset  seed=2 r=2 n= 1000 acc=0.442 tailF1=0.221 imb=47.3
+  cifar10-lt100 coreset  seed=2 r=3 n= 1250 acc=0.461 tailF1=0.236 imb=39.1
+  cifar10-lt100 coreset  seed=2 r=4 n= 1500 acc=0.501 tailF1=0.295 imb=35.2
+  cifar10-lt100 coreset  seed=2 r=5 n= 1750 acc=0.523 tailF1=0.330 imb=32.8
+  cifar10-lt100 coreset  seed=2 r=6 n= 2000 acc=0.533 tailF1=0.344 imb=38.4
+  cifar10-lt100 coreset  seed=2 r=7 n= 2250 acc=0.540 tailF1=0.357 imb=40.2
+  cifar10-lt100 coreset  seed=2 r=8 n= 2500 acc=0.563 tailF1=0.399 imb=39.0
+  cifar10-lt100 dualnet  seed=0 r=0 n=  500 acc=0.310 tailF1=0.012 imb=214.0
+  cifar10-lt100 dualnet  seed=0 r=1 n=  750 acc=0.391 tailF1=0.043 imb=231.0
+  cifar10-lt100 dualnet  seed=0 r=2 n= 1000 acc=0.441 tailF1=0.128 imb=278.0
+  cifar10-lt100 dualnet  seed=0 r=3 n= 1250 acc=0.465 tailF1=0.159 imb=332.0
+  cifar10-lt100 dualnet  seed=0 r=4 n= 1500 acc=0.491 tailF1=0.198 imb=130.0
+  cifar10-lt100 dualnet  seed=0 r=5 n= 1750 acc=0.520 tailF1=0.208 imb=88.4
+  cifar10-lt100 dualnet  seed=0 r=6 n= 2000 acc=0.541 tailF1=0.249 imb=54.7
+  cifar10-lt100 dualnet  seed=0 r=7 n= 2250 acc=0.543 tailF1=0.259 imb=41.4
+  cifar10-lt100 dualnet  seed=0 r=8 n= 2500 acc=0.574 tailF1=0.336 imb=32.7
+  cifar10-lt100 dualnet  seed=1 r=0 n=  500 acc=0.331 tailF1=0.062 imb=97.0
+  cifar10-lt100 dualnet  seed=1 r=1 n=  750 acc=0.381 tailF1=0.134 imb=112.5
+  cifar10-lt100 dualnet  seed=1 r=2 n= 1000 acc=0.434 tailF1=0.196 imb=147.5
+  cifar10-lt100 dualnet  seed=1 r=3 n= 1250 acc=0.465 tailF1=0.221 imb=87.0
+  cifar10-lt100 dualnet  seed=1 r=4 n= 1500 acc=0.498 tailF1=0.273 imb=66.7
+  cifar10-lt100 dualnet  seed=1 r=5 n= 1750 acc=0.530 tailF1=0.328 imb=45.1
+  cifar10-lt100 dualnet  seed=1 r=6 n= 2000 acc=0.544 tailF1=0.362 imb=42.2
+  cifar10-lt100 dualnet  seed=1 r=7 n= 2250 acc=0.566 tailF1=0.385 imb=30.9
+  cifar10-lt100 dualnet  seed=1 r=8 n= 2500 acc=0.587 tailF1=0.441 imb=27.7
+  cifar10-lt100 dualnet  seed=2 r=0 n=  500 acc=0.371 tailF1=0.185 imb=50.0
+  cifar10-lt100 dualnet  seed=2 r=1 n=  750 acc=0.420 tailF1=0.199 imb=51.2
+  cifar10-lt100 dualnet  seed=2 r=2 n= 1000 acc=0.462 tailF1=0.245 imb=38.6
+  cifar10-lt100 dualnet  seed=2 r=3 n= 1250 acc=0.492 tailF1=0.266 imb=34.0
+  cifar10-lt100 dualnet  seed=2 r=4 n= 1500 acc=0.511 tailF1=0.271 imb=33.8
+  cifar10-lt100 dualnet  seed=2 r=5 n= 1750 acc=0.540 tailF1=0.338 imb=35.8
+  cifar10-lt100 dualnet  seed=2 r=6 n= 2000 acc=0.565 tailF1=0.385 imb=26.1
+  cifar10-lt100 dualnet  seed=2 r=7 n= 2250 acc=0.571 tailF1=0.367 imb=25.7
+  cifar10-lt100 dualnet  seed=2 r=8 n= 2500 acc=0.579 tailF1=0.388 imb=24.9
+
+strategy             final_acc      final_macro_f1       final_tail_f1     final_imbalance                aulc
+random            0.487 +-0.006        0.442 +-0.007        0.236 +-0.019      146.377 +-19.246        0.428 +-0.005
+entropy           0.571 +-0.005        0.536 +-0.011        0.339 +-0.036       51.351 +-13.658        0.485 +-0.005
+coreset           0.552 +-0.008        0.520 +-0.012        0.354 +-0.038       50.981 +-19.000        0.469 +-0.010
+dualnet           0.580 +-0.005        0.552 +-0.012        0.388 +-0.043       28.455 +-3.228        0.489 +-0.011
+
+saved results/cifar10-lt100_20261031-134210.json  (59.2 min)
